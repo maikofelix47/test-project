@@ -6,6 +6,12 @@ const mySum = sum(5, 3);
 
 console.log(mySum);
 
+function multiply(a,b){
+  return a * b;
+}
+
+console.log('Multiply', multiply(4,7));
+
 function subtract(a, b) {
     return a-b;
 }
